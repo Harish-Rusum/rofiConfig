@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-mv theme.rasi temp.rasi
-mv themeAlternate.rasi theme.rasi
-mv temp.rasi themeAlternate.rasi
+mv ~/.config/rofi/theme.rasi ~/.config/rofi/temp.rasi
+mv ~/.config/rofi/themeAlternate.rasi ~/.config/rofi/theme.rasi
+mv ~/.config/rofi/temp.rasi ~/.config/rofi/themeAlternate.rasi
 
-mv styles/style_1.rasi styles/temp.rasi
-mv styles/style_1Alternate.rasi styles/style_1.rasi
-mv styles/temp.rasi styles/style_1Alternate.rasi
+mv ~/.config/rofi/styles/style_1.rasi ~/.config/rofi/styles/temp.rasi
+mv ~/.config/rofi/styles/style_1Alternate.rasi ~/.config/rofi/styles/style_1.rasi
+mv ~/.config/rofi/styles/temp.rasi ~/.config/rofi/styles/style_1Alternate.rasi
