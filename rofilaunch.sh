@@ -6,7 +6,7 @@ hypr_width=${hypr_width:-1}
 hypr_border=${hypr_border:-10}
 
 if [ ! -f "${roconf}" ]; then
-    roconf="$(find "styles" -type f -name "style_1.rasi" | sort -t '_' -k 2 -n | head -1)"
+    roconf="$(find "$HOME/.config/rofi/styles" -type f -name "style_1.rasi" | sort -t '_' -k 2 -n | head -1)"
 fi
 
 wind_border=$(( hypr_border * 3 ))
