@@ -44,7 +44,7 @@ dummywall {
     orientation:                 horizontal;
     children:                    [ "mode-switcher" , "inputbar" ];
     background-color:            transparent;
-    background-image:            url("~/Desktop/bg/wallpaper.jpg", height);
+    background-image:            url("~/Desktop/bg/background.png", height);
 }
 
 
@@ -56,7 +56,7 @@ mode-switcher{
     padding:                     9.2em 0.5em 9.2em 0.5em;
     spacing:                     1.2em;
     background-color:            transparent;
-    background-image:            url("~/Desktop/bg/wallpaper.jpg", height);
+    background-image:            url("~/Desktop/bg/background.png", height);
 }
 button {
     cursor:                      pointer;

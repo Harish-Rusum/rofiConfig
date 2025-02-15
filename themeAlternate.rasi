@@ -1,10 +1,10 @@
 * {
-    main-bg:            #11111be6;
-    main-fg:            #cdd6f4ff;
-    main-br:            #cba6f7ff;
-    main-ex:            #f5e0dcff;
-    select-bg:          #b4befeff;
-    select-fg:          #11111bff;
+    main-bg:            #1b1111e6; /* Dark red background */
+    main-fg:            #f4cdddff; /* Light pinkish-red foreground */
+    main-br:            #f77474ff; /* Bright red border */
+    main-ex:            #f7d6d6ff; /* Soft red accent */
+    select-bg:          #fcb4b4ff; /* Muted red for selection background */
+    select-fg:          #1b1111ff; /* Dark red for selection foreground */
     separatorcolor:     transparent;
     border-color:       transparent;
 }
