@@ -1,10 +1,11 @@
 * {
-    main-bg:            #11111be6;
-    main-fg:            #cdd6f4ff;
-    main-br:            #cba6f7ff;
-    main-ex:            #f5e0dcff;
-    select-bg:          #b4befeff;
-    select-fg:          #11111bff;
+    main-bg:            #0a0a10e6;  /* Deepest Black */
+    main-fg:            #d0d0d8ff;  /* Soft Cool White */
+    main-br:            #404050ff;  /* Lighter Grayish Border */
+    main-ex:            #181820ff;  /* Slightly Lighter Accent */
+    select-bg:          #1a1a24ff;  /* Dark Selection */
+    select-fg:          #d0d0d8ff;  /* Almost Black Foreground */
     separatorcolor:     transparent;
-    border-color:       transparent;
+    border-color:       #505060ff;  /* Even Lighter Border */
 }
+
